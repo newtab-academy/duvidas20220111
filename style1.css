@@ -1,0 +1,152 @@
+            
+     *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-family: 'Lato', sans-serif;
+       }      
+
+            header{
+            display: flex;
+            position: fixed;
+            width: 100%;
+            height: 80px;
+            top: 0;
+            background-color: #E0E0E0;
+            justify-content: space-around;
+            align-items: center;
+            }
+            
+            img{
+                margin-left: -50px;
+            }
+            .texto_logo{
+                margin-left: -200px;
+                margin-bottom: 23px;
+                
+            }
+            button{
+                width: 250px;
+                height: 40px;
+                border: 2px solid #979797;
+                margin-right: -4px;
+                border-bottom: none;
+                border-left: none;
+                border-top: none;
+                font-size: 16px;
+                color: #333333;
+                cursor: pointer;
+            }
+            button:last-child{
+                border-right: none;
+            }
+
+               .box_principal{
+                   display: flex;
+                   justify-content:center;
+                   align-items: center;
+                   max-width: 1500px;
+                   margin: 0px 20px 0px 20px;
+                   margin-top: 100px;
+               }
+
+                   .box_filho{
+                       width: 400px;
+                       height: 344px;
+                       border: 1px solid #979797 ;
+                       margin-top: 26px;
+                       margin-left: 100px;
+                       
+                   }
+
+                   .Transação, .Tipo-nome, .Result-valor{
+                       width: 370px;
+                       height: 32px;
+                       border: 1px solid #979797;
+                        border-radius: 4px;
+                        background-color: #FFFFFF;
+                        margin: 10px 15px 10px 15px;
+                   }
+
+                   label{
+                       margin: 50px 14px 50px 14px;
+                       
+                   }
+                   .add{
+                       background-color: #333333;
+                       color: #FFFFFF;
+                       border: 1px solid;
+                       border-radius: 4px;
+                       margin: 10px 50px 10px 50px;
+                   }
+                   h2{
+                       font-size: 18px;
+                       text-align: center;
+                       margin-top: 20px;
+                   }
+
+                   table{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    max-width: 680px;
+                    height: 281px;
+                    border-collapse: collapse;
+                    margin-left: 20px;
+                
+                       
+                   }
+                   th, tr, td{
+                    width: 100%;
+                    text-align: left;
+                    border-bottom: 1px solid #979797;
+                    padding-left: 40px;
+                    padding-right: 20px;
+                       
+                   }
+
+                   @media screen and (max-width: 1112px){
+                       .box_principal{
+                           max-width: 1112px;
+                       }
+                   }
+
+                   @media screen and (max-width: 768px){
+
+                     
+                    .box_principal{
+                        display: block;
+                    }
+
+                    .box_filho{
+            
+                        width: 728px;
+                        height: 189px;
+                    }
+                    .Transação{
+                        width: 150px;
+                        height: 32px;
+                        margin-right: 200px;
+                    }
+                    .Tipo-nome{
+                        width: 150px;
+                        height: 32px;
+                        margin-right: 500px;
+                    }
+                     
+                       .Result-valor{
+                           width: 150px;
+                           height: 32px;
+                           margin-right: 100px;
+                       }
+                       form{
+                           display: block;
+                           
+                       }
+                       label{
+                           margin-top: -50px;
+                       }
+                       input{
+                           margin-left: 100px;
+                       }
+                      }
